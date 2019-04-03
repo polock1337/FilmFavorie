@@ -1,0 +1,77 @@
+body {
+
+    background-color: #494947;
+    color:#EAEAEA;
+    margin: 0;
+    padding: 0;
+    min-width: 980px;
+    
+}
+/*link*/
+td a:visited{
+  color:#ffe680;
+}
+td a:link{
+
+  color:#ffe680;
+}
+.logoLink{
+
+}
+
+
+
+
+
+
+/*table de sauce*/
+table,form{
+  margin:20px;
+}
+table.steelBlueCols {
+  border: 4px solid #000000;
+  background-color: #000000;
+  width: 400px;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.steelBlueCols td, table.steelBlueCols th {
+  border: 1px solid #000000;
+  padding: 5px 10px;
+}
+table.steelBlueCols tbody td {
+  font-size: 12px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+table.steelBlueCols td {
+  background: #333333;
+}
+table.steelBlueCols thead {
+  background: #333333;
+  border-bottom: 10px solid #333333;
+}
+table.steelBlueCols thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: left;
+  border-left: 2px solid #333333;
+}
+table.steelBlueCols thead th:first-child {
+  border-left: none;
+}
+
+table.steelBlueCols tfoot td {
+  font-size: 13px;
+}
+table.steelBlueCols tfoot .links {
+  text-align: right;
+}
+table.steelBlueCols tfoot .links a{
+  display: inline-block;
+  background: #FFFFFF;
+  color: #333333;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
